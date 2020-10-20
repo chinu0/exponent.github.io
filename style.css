@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: 'Poppins', sans-serif;
+
+}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+header{
+    /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://i.postimg.cc/j584FvRh/1.jpg); */
+/* 
+    background: url('image/1.jpg');
+    background: url('image/1.jpg');
+    background: url('image/1.jpg'); */
+    /* height: 100vh; */
+  /*   -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative; */
+}
+.nav-area1{
+    float: left;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.nav-area2{
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+    /* margin-left: 5px; */
+    margin-right: 15px;
+
+}
+.nav-area1 li{
+    display: inline-block;
+}
+
+.nav-area2 li{
+
+     display: inline-block;
+}
+.nav-area1 li a {
+color: #383838;
+text-decoration: none;
+padding: 5px 20px;
+font-family: poppins;
+font-size: 16px;
+text-transform: uppercase;
+}
+
+.nav-area2 li a{
+color: #383838;
+text-decoration: none;
+padding: 5px 20px;
+font-family: poppins;
+font-size: 16px;
+text-transform: uppercase;
+}
+
+.nav-area1 li a:hover{
+    background: #fff;
+    color: green;
+}
+
+ .nav-area2 li a:hover{
+    background: #fff;
+    color: green;
+ }
+
+.logo{
+ 
+    /* float: none; */
+  position: absolute;
+  top: 6.2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* text-align: center; */
+}
+/* .logo img{
+    width: 100%;
+    padding: 15px 0;
+} */
+.logo h2{
+    color: #404040;
+} 
+.welcome-text{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 13% 30%;
+    text-align: center;
+    margin-left: 1px;
+    margin-right: 1px;
+
+}
+.welcome-text h1{
+    text-align: center;
+    color: #404040;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.welcome-text a{
+    border: none;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+    background-color: #4CAF50;
+    text-align: center;
+}
+.welcome-text p{
+text-align: center;
+    color: #404040;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+.welcome-text a:hover{
+    background: #404040 !important;
+    color: #fff !important;
+}
+
+.wel-text{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 13% 30%;
+    text-align: center;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.wel-text h1{
+text-align: center;
+    color: #404040;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.wel-text a{
+border: none;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+    background-color: black;
+    text-align: center;
+}
+
+.wel-text p{
+text-align: center;
+    color: #404040;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.wel-text a:hover{
+     background: #404040 !important;
+    color: #fff !important;
+}
+
+.we-text{
+position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 10% 30%;
+    text-align: center;
+    /* margin-left: 1px;
+    margin-right: 1px; */
+}
+
+.we-text h1{
+text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.we-text a{
+border: none;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.we-text p{
+text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.we-text a:hover{
+background: #fff !important;
+    color: black !important;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+/* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+
+
+
+
+.ttg a{
+    background-color: #4CAF50;
+  border: none;
+  color: #fff !important;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.ttg a:hover{
+    background: #404040 !important;
+    color: #fff !important;
+}
+
+/*resposive*/
+
+@media (max-width:600px){
+    .wrapper {
+width: 100%;
+}
+.logo {
+float: none;
+width: 50%;
+text-align: center;
+margin: auto;
+}
+img {
+width: ;
+}
+.nav-area1 .nav-area2 {
+float: none;
+margin-top: 0;
+}
+    .nav-area1 .nav-area2 li a {
+padding: 5px;
+font-size: 11px;
+}
+.nav-area1 .nav-area2 {
+text-align: center;
+}
+    .welcome-text {
+width: 100%;
+height: auto;
+margin: 30% 0;
+}
+    .welcome-text h1 {
+font-size: 30px;
+}
+
+
+./* mySlides {display: none;}
+img {vertical-align: middle;}
+ */
+/* Slideshow container */
+/* .slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+
+} */
+
+/* Caption text */
+/* .text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+} */
+
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 4.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+

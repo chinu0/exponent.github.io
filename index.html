@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exponent - Finance Demo - A modern multi purpose business... </title>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <div class="wrapper">
+        <div class="logo">
+            <p><h2> Exponent^ </h2></p>
+        </div>
+    
+<ul class="nav-area1">
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<div class="dropdown">
+<li><a href="#">Services</a></li>
+<i class="fa fa-caret-down"></i>
+<div class="dropdown-content">
+    <a href="#">about us</a>
+    <a href="#">contact</a>
+    <a href="#">client</a>
+</ul>
+
+<ul class="nav-area2">
+<li><a href="#">Blog</a></li>
+<li><a href="#">Contact</a></li>
+<li class="ttg"><a href="#">SIGN UP NOW</a></li>
+</ul>
+</div>
+
+</div>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <!-- <div class="numbertext">Better financial future for next generation customer</div> -->
+
+  <div class="welcome-text">
+        <h1>
+Better financial future for next generation customer</h1>
+<p>Exopnent is a pixel perfect theme.... </p>
+<a href="#">Learn more</a>
+    </div>
+
+
+  <img src="image/1.jpg" style="width:100%">
+  <!-- <div class="text">Exopnent is a pixel perfect theme.... </div> -->
+</div>
+
+<div class="mySlides fade">
+  <!-- <div class="numbertext">2 / 3</div> -->
+
+  <div class="wel-text">
+        <h1>
+Its time to make your money work for you</h1>
+<p>Exopnent is a pixel perfect theme.... </p>
+<a href="#">About us</a>
+    </div>
+
+  <img src="image/2.jpg" style="width:100%">
+  <!-- <div class="text">Caption Two</div> -->
+</div>
+
+<div class="mySlides fade">
+  <!-- <div class="numbertext">3 / 3</div> -->
+
+
+  <div class="we-text">
+        <h1>
+Our moto is to balance risk with growth</h1>
+<p>Exopnent is a pixel perfect theme.... </p>
+<a href="#">Contact Us</a>
+    </div>
+
+  <img src="image/3.jpg" style="width:100%">
+  <!-- <div class="text">Caption Three</div> -->
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+</header>
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+</script>
+
+
+
+
+
+</body>
+</html>
